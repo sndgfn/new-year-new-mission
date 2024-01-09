@@ -1,7 +1,9 @@
 /* common shared styles */
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
+
 .banner {
     background-image: url('../images/Banner\ Image.png');
     width: 1320px;
@@ -11,6 +13,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 .banner-title1 {
     color: #FFF;
     text-align: center;
@@ -18,6 +21,7 @@ body {
     font-weight: 400;
     padding-top: 177px;
 }
+
 .banner-title2 {
     color: #FFF;
     text-align: center;
@@ -26,46 +30,54 @@ body {
     font-style: normal;
     font-weight: 900;
 }
+
 .header-2 {
     text-align: center;
 }
+
 /* 2nd banner related styles */
-.poster{
+.poster {
     display: flex;
     text-align: center;
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 180px;    
+    margin-top: 180px;
 }
-.welcome{
-    color: #FFF; 
+
+.welcome {
+    color: #FFF;
     text-align: left;
     margin-top: 50px;
     margin-left: 350px;
 }
-.dolor{
+
+.dolor {
     color: #FFF;
     margin-left: 350px;
     text-align: left;
 }
-.join{
-     color: #FFF; 
+
+.join {
+    color: #FFF;
     text-align: left;
     margin-top: 40px;
-    margin-left:380px;
+    margin-left: 380px;
 }
+
 .off {
     color: #F00;
     font-size: 88px;
     font-weight: 700;
 }
+
 .holiday {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
-    
+
 }
+
 .categories {
     color: #070211;
     font-size: 48px;
@@ -73,17 +85,22 @@ body {
     margin-top: 0%;
     padding-top: 0%;
 }
+
 .happy-image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    margin-left: 500px;
+    /* margin-left: auto;
+    margin-right: auto; */
     width: 50%;
 }
+
 .main-image {
     width: 54px;
     height: 66px;
     flex-shrink: 0;
 }
+
 /* details poster related styles */
 .details {
     text-align: center;
@@ -97,9 +114,11 @@ body {
     margin-top: 20px;
     padding-top: 160px;
 }
+
 .pl1 {
     color: #F00;
 }
+
 .join-now {
     margin-top: 10px;
     padding: 10px;
@@ -108,6 +127,7 @@ body {
     background-color: red;
     color: white;
 }
+
 .offer {
     display: flex;
     text-align: center;
@@ -115,6 +135,7 @@ body {
     margin-left: 425px;
     margin-top: 100px;
 }
+
 .new {
     float: left;
     text-align: left;
@@ -201,37 +222,46 @@ body {
 }
 
 /* footer related style */
-.footer-info{
+.footer-info {
     color: #FFF;
     display: flex;
     background-color: #070211;
     margin-top: 100px;
-    height: 609px; 
+    height: 609px;
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 20px;
+    padding-top: 0px;
     margin-bottom: 0px;
+}
+.address {
+    font-weight: 500;
+line-height: 40px;
 }
 .social-links {
     text-align: center;
     background-color: #070211;
-    margin-bottom: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .footer-summery {
-    color: #FFF;
     display: flex;
-    gap: 1000px;
     background-color: #070211;
+    color: white;
     justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+    padding-bottom: 20px;
+}
+.line{
+    width: 1320px;
+height: 1px;
+background-color:  rgba(255, 255, 255, 0.15);
+}
+.ft-info {
+    background-color: #070211;
 
-    align-items: center;  
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
-    margin-top: 0px;
     
-
 }
