@@ -1,6 +1,6 @@
 /* common shared styles */
 body {
-       font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .banner {
@@ -63,41 +63,82 @@ padding-top: 48px; */
     margin-right: auto;
     width: 50%;
 }
-
-.poster {
-    background-image: url('../images/Vectorrr.png');
-    margin-top: 120px;
-    width: 1320px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+.main-image {
+    width: 54px;
+    height: 66px;
+    flex-shrink: 0;
 }
-
-.poster-image {
-    color: #690B02, #8F4941, #B18079, #CDADA8, #E3D1CD, #F2EAE7, #FCFAF6, #FFFFFC;
+/* details poster related styles */
+.details {
+    text-align: center;
+    background-color: #f1b3b3;       
+    width: 1100px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-left:auto ;
+    margin-right : auto ;
+    margin-top: 20px;
+    padding-top: 160px;
+}
+.pl1 {
+    color: #F00;
+}
+.join-now {
+    margin-top: 10px;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+    background-color:red;
+    color: white;
+}
+.offer {
     display: flex;
-    width: 319.83px;
-height: 464.662px;
-    padding: 0px 0px 0px 860px;
-    padding-bottom: 2000px;
+    text-align: center;
+    gap: 30px;
+    margin-left: 425px;
+    margin-top: 100px;
+   }
+   .new{
+    float: left;
+    text-align: left;    
+   }
+   .best {
+    color: #F00;
+   }
+   .round-image {
+    border: 2px;    
+    border-radius: 50%;
+   }   
+   .year {
+    color: #F00;
+   }
+   .xyz {
+    text-align: left;
+   }
+   /* holiday sale section */
+
+#red {
+    color: #F00;
+}
+.section-title{
+text-align: center;
+margin-bottom: 0px;
+}
+.holiday-section {
+    text-align: center;
+}
+.holiday-image{
+    background-image: url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png') ;
+    background-repeat: no-repeat;
+    background-position: bottom , top right;
+      margin-right: 400px;
+}
+/* gift section styles */
+.gift {
+    text-align: left;
+    margin-left: 60px;
 }
 
-.midnight {
-    color: #FFF;
-    font-size: 64px;
-    font-weight: 900;
-    padding: 0.000px 0.0px 0.00px 120px;
-}
+   
 
-.dolor {
-    color: #FFFFFFCC;
-    font-size: 12px;
-    margin-left: 120px;
-}
-
-.join {
-    color: #FFF;
-    font-size: 20px;
-    margin-left: 140px;
-    margin-top: 50px;
-}
