@@ -63,82 +63,165 @@ padding-top: 48px; */
     margin-right: auto;
     width: 50%;
 }
+
 .main-image {
     width: 54px;
     height: 66px;
     flex-shrink: 0;
 }
+
 /* details poster related styles */
 .details {
     text-align: center;
-    background-color: #f1b3b3;       
+    background-color: #f1b3b3;
     width: 1100px;
     height: 300px;
     flex-shrink: 0;
     border-radius: 10px;
-    margin-left:auto ;
-    margin-right : auto ;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
     padding-top: 160px;
 }
+
 .pl1 {
     color: #F00;
 }
+
 .join-now {
     margin-top: 10px;
     padding: 10px;
     border: 10px;
     border-radius: 10px;
-    background-color:red;
+    background-color: red;
     color: white;
 }
+
 .offer {
     display: flex;
     text-align: center;
     gap: 30px;
     margin-left: 425px;
     margin-top: 100px;
-   }
-   .new{
+}
+
+.new {
     float: left;
-    text-align: left;    
-   }
-   .best {
-    color: #F00;
-   }
-   .round-image {
-    border: 2px;    
-    border-radius: 50%;
-   }   
-   .year {
-    color: #F00;
-   }
-   .xyz {
     text-align: left;
-   }
-   /* holiday sale section */
+}
+
+.best {
+    color: #F00;
+}
+
+.round-image {
+    border: 2px;
+    border-radius: 50%;
+}
+
+.year {
+    color: #F00;
+}
+
+.xyz {
+    text-align: left;
+}
+
+/* holiday sale section */
+.xxx {
+    text-align: center;
+}
 
 #red {
     color: #F00;
 }
-.section-title{
-text-align: center;
-margin-bottom: 0px;
+
+.section-title {
+    text-align: center;
+    margin-bottom: 0px;
 }
+
 .holiday-section {
     text-align: center;
 }
-.holiday-image{
-    background-image: url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png') ;
+
+.holiday-image {
+    background-image: url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png');
     background-repeat: no-repeat;
-    background-position: bottom , top right;
-      margin-right: 400px;
+    background-position: bottom, top right;
+    margin-right: 400px;
 }
+
 /* gift section styles */
 .gift {
+    margin-left: 200px;
+}
+
+.best-gift {
     text-align: left;
     margin-left: 60px;
 }
 
-   
+.products {
+    text-align: center;
+}
 
+/* subscribe section style */
+.subscribe {
+    text-align: center;
+    margin-top: 20px;
+    width: 1100px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 160px;
+}
+
+.subscribe-btn {
+    text-align: left;
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+/* footer related style */
+.footer-info{
+    color: #FFF;
+    display: flex;
+    background-color: #070211;
+    margin-top: 100px;
+    height: 609px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+.social-links {
+    text-align: center;
+    background-color: #070211;
+    margin-bottom: 200px;
+}
+.footer-summery {
+    color: #FFF;
+    display: flex;
+    gap: 1000px;
+    background-color: #070211;
+    justify-content: space-between;
+
+    align-items: center;  
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    margin-top: 0px;
+    
+
+}
