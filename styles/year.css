@@ -228,9 +228,13 @@ body {
     width: 1600px;
     height: 0px;
     background-color: #FFF;
+    position: relative;
+    bottom: 50px;
 }
 .holiday-section{
     grid-area: 0px;
+    position: relative;
+    bottom: 10px;
 }
 
 .girl {
