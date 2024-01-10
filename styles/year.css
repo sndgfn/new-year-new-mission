@@ -226,43 +226,43 @@ body {
     background-repeat: no-repeat;
     position: bottom left;
     width: 1600px;
-height: 0px;
-background-color: #FFF;
-    
+    height: 0px;
+    background-color: #FFF;
+}
+.holiday-section{
+    grid-area: 0px;
 }
 
-.all-images {
-    border: #FFF;
-    margin: 50px auto;
-    background-image: url('../images/Rectangle\ 2.png');
-    background-repeat: no-repeat;
-    position: bottom left;
-   
+.girl {
+    position: relative;
+    top: 990px;
+    left: 450px;
 }
-.girl{
-  position: relative;
-  top: 990px;
-  left: 450px;
+
+.box {
+    position: relative;
+    top: 500px;
+    right: 400px;
 }
-.box{
-position: relative;
-top: 500px;
-right: 400px;
-}
-.discount{
+
+.discount {
     position: relative;
     bottom: 10px;
     left: 200px;
 
 }
+
 .xxx {
     text-align: center;
+    padding: 0px;
+
 }
 
 .holiday section {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    margin-top: 0px;
 
 }
 
